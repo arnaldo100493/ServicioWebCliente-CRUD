@@ -4,9 +4,6 @@
     Author     : abarrime
 --%>
 
-<%@page import="java.util.List"%>
-<%@page import="com.serviciowebclientecrud.controller.UserController"%>
-<%@page import="com.serviciowebclientecrud.servicioweb.User"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--
