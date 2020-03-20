@@ -41,9 +41,9 @@ public class UserServlet extends HttpServlet {
 
         String acceso = "";
         String index = "index.jsp";
-        String listar = "listar.jsp";
-        String agregar = "agregar.jsp";
-        String editar = "editar.jsp";
+        String listar = "vistas/listar.jsp";
+        String agregar = "vistas/agregar.jsp";
+        String editar = "vistas/editar.jsp";
         String accion = request.getParameter("accion");
         UserController userController = new UserController();
 

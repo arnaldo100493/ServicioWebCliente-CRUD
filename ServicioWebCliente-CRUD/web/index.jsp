@@ -28,8 +28,8 @@ and open the template in the editor.
             <h1>Bienvenidos</h1>
         </div>
         <div class="container mt-4">
-            <a href="listar.jsp" class="btn btn-primary">Listar</a>
-            <a href="agregar.jsp" class="btn btn-success" style="margin-left: 10px;">Nuevo Usuario</a>
+            <a href="./user?accion=listar" class="btn btn-primary">Listar</a>
+            <a href="./user?accion=agregar" class="btn btn-success" style="margin-left: 10px;">Nuevo Usuario</a>
         </div>
         <hr/>
     </body>
